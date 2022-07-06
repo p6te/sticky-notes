@@ -1,0 +1,47 @@
+.background {
+  margin-top: 300px;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  div {
+    flex-grow: 1;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: rgb(73, 74, 78);
+    h2 {
+      margin-top: 5px;
+    }
+  }
+  .to-do {
+  }
+  .in-progress {
+  }
+  .done {
+  }
+}
+
+body {
+  background-color: rgb(59, 60, 65);
+}
+
+.App {
+  margin: 20px;
+  h1 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  .note-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    textarea {
+      min-height: 200px;
+    }
+    button {
+      margin-top: 5px;
+      height: 30px;
+    }
+  }
+}
